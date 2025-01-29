@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
-import LoginCard from './components/LoginCard';
-import RegisterCard from './components/RegisterCard';
+import LoginCard from './components/Login/LoginCard';
+import RegisterCard from './components/Login/RegisterCard';
 import HomePage from './components/HomePage';
 import { X } from 'lucide-react';
 
@@ -20,7 +20,7 @@ function AuthLayout({ children }: { children: React.ReactNode }) {
         </button>
         <div className="hidden md:block w-1/2 h-full">
           <img
-            src="https://images.unsplash.com/photo-1612012460576-5d51b5b04b00?q=80&w=1000&auto=format&fit=crop"
+            src="https://i.pinimg.com/736x/e2/af/72/e2af72c11576bc96996d8b7c096afe50.jpg"
             alt="Login illustration"
             className="w-full h-full object-cover"
           />
